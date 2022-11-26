@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Pokemon';
+            src: url(Pokemon\ Solid.ttf) format(truetype);
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+             Tipos de format()
+              - opentype (otf)
+              - truetype (ttf)
+              - embedded-opentype
+              - truetype-aat (Apple Advanced Typography)
+              - svg
+
+            */
+        }
+
+        @font-face {
+            font-family: 'Mag';
+            src: url(fontes/Milky\ Honey.otf) format(truetype), url(fontes/Milky\ Honey.ttf) format(opentype);
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+        h1 {
+            font-family: 'Mag', 'Times New Roman', Times, serif;
+            font-size: 3em;
+            color: rgb(228, 17, 17);
+            font-weight: normal;
+
+        }
+        h2 {
+            font-family: 'Mag',Verdana, serif;
+            font-size: 2em;
+            color: rgb(121, 53, 53);
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente vero laudantium consectetur quidem, architecto explicabo veniam nam pariatur eveniet saepe molestiae voluptatibus quisquam voluptates veritatis commodi, totam ut eligendi placeat?</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates rem porro repudiandae cupiditate. Quidem voluptatem aspernatur optio labore expedita enim animi nihil velit quia, nam quis reprehenderit, autem, a pariatur.</p>
+</body>
+</html>
