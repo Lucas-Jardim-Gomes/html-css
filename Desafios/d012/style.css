@@ -18,7 +18,7 @@ body {
 header {
     background-color: black;
     color: white;
-    max-height: 300px;
+    max-height: 400px;
     min-height: 200px;
 }
 
@@ -34,6 +34,7 @@ header h1 {
 }
 header P {
     text-align: center;
+    margin: auto;
 }
 article {
     background-color: white;
@@ -65,4 +66,13 @@ div > p {
     font-size: 2em;
     height: 400px;
     
+}
+.backgroundcartas {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
 }
