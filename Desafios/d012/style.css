@@ -34,6 +34,7 @@ header h1 {
 header P {
     text-align: center;
     margin: auto;
+    font-size: 25px;
 }
 article {
     background-color: white;
@@ -52,7 +53,7 @@ p {
     text-align: left;
     width: 40%;
     height: 81%;
-    font-size: 2em;
+    font-size: 3em;
     margin: 40px;
     padding: 20px;
 }
@@ -63,8 +64,7 @@ div p {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.349);
     text-align: left;
-    font-size: 2em;
-    
+    font-size: 3em;
      
     
 }
@@ -76,4 +76,10 @@ div p {
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-align: center;
 }
