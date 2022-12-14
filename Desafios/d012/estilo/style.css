@@ -30,3 +30,17 @@ header a:hover {
 p {
     font-family: var(--font02);
 }
+.imagem1 {
+    background-image: url(../imagens/background001.jpg);
+    background-color: black;
+    background-position: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagem2 {
+    background-image: url(../imagens/background002.jpg);
+    background-color: black;
+    background-position: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+}
