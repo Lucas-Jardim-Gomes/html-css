@@ -6,3 +6,27 @@
     --font01: "passion one", Helvetica ;
     --font02: "Sriracha" , cursive;
 }
+
+* {
+    margin: 0px ;
+    padding: 0px ;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header h1 {
+    font-family: var( --font01)
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header a:hover {
+    text-decoration: underline;
+}
+p {
+    font-family: var(--font02);
+}
