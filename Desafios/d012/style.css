@@ -29,8 +29,7 @@ header h1 {
     font-family: var(--font01);
     font-weight: bold;
     padding: 10% 0%;
-    font-size: 4em;
-    
+
 }
 header P {
     text-align: center;
@@ -42,7 +41,7 @@ article {
 .backgroundjoaninha {
     background-image: url(imagens/background001.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -52,19 +51,21 @@ p {
     font-family: var(--font02);
     text-align: left;
     width: 40%;
+    height: 81%;
     font-size: 2em;
-    height: 800px;
+    margin: 40px;
+    padding: 20px;
 }
 
-div > p {
+div p {
     color: white;
     position: absolute;
-    background-size: 100% 100%;
+    background-size: cover;
     background-color: rgba(0, 0, 0, 0.349);
     text-align: left;
-    width: 40%;
     font-size: 2em;
-    height: 400px;
+    
+     
     
 }
 .backgroundcartas {
