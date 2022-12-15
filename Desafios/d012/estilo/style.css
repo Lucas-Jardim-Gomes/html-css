@@ -11,6 +11,10 @@
     margin: 0px ;
     padding: 0px ;
 }
+html, body  {
+    min-height: 100vh;
+    background-color: rgb(151, 151, 151);
+}
 
 header {
     background-color: black;
@@ -18,29 +22,62 @@ header {
     text-align: center;
 }
 header h1 {
-    font-family: var( --font01)
+    font-family: var( --font01);
+    padding-top: 50px;
+    font-variant: small-caps;
 }
-header a {
+header p {
+    padding-bottom: 50px;
+}
+a {
     text-decoration: none;
     color: white;
+    font-weight: bolder;
 }
-header a:hover {
+a:hover {
     text-decoration: underline;
 }
-p {
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(51, 50, 50);
+    color: white;
+}
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.445);
+    width: 400px;
+}
+section {
+    padding-left: 25px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
     font-family: var(--font02);
 }
-.imagem1 {
+.imagem {
     background-image: url(../imagens/background001.jpg);
     background-color: black;
-    background-position: 100vw;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
 }
-.imagem2 {
+.imagem {
     background-image: url(../imagens/background002.jpg);
     background-color: black;
-    background-position: 100vw;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
+}
+footer {
+    background-color: black;
+    color: white;
+    font-family: var( --font01);
+    text-align: center;
+    padding: 5px;
 }
