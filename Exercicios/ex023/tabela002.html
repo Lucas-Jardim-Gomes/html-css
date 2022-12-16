@@ -12,16 +12,21 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
-            background-color: rgb(255, 238, 83);
+            background-color: rgb(170, 170, 170);
             padding: 5px;
             border: 1px solid black;
             font-weight: bolder;
             font-size: 23px;
         }
+        thead > tr > th {
+            position:sticky;top: -1px;
+            background-color: rgb(75, 75, 75);
+        }
         thead, tfoot {
-            background-color: grey;
+            background-color: rgb(75, 75, 75);
             color: white;
         }
         tbody > tr:nth-child(2n) {
