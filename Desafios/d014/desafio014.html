@@ -13,13 +13,15 @@
         caption {
             background-color: gray;
             padding: 10px;
+            font-size: 2em;
+            font-weight: bolder;
         }
         table {
             width: 600px;
             border-collapse: collapse;
         }
         td, th {
-            border: 1px solid black;
+            border: 2px solid black;
             padding: 5px;
         }
         tr > td {
@@ -30,12 +32,14 @@
         }
         .destaque {
             background-color: gray;
+            color: white;
+            font-weight: bolder;
         }
     </style>
 </head>
 <body>
     <table>
-        <caption>Mesclagem</caption>
+        <caption>Mesclagem de Celúlas</caption>
         <thead>
             <tr class="destaque">
                 <th scope="col" rowspan="2">Área</th>
@@ -51,7 +55,7 @@
         <tbody>
             <tr>
                 <th scope="rowgroup" rowspan="4">Exatas</th>
-                <td scope="row">Matemárica</td>
+                <td scope="row">Matemática</td>
                 <td>0.0</td>
                 <td>0.0</td>
                 <td>0.0</td>
