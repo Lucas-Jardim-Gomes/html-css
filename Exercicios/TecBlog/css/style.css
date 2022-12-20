@@ -12,7 +12,7 @@
 body {
     font-size: 1em;
     font-family:Arial, Helvetica, sans-serif;
-    background: gray;
+    background: white;
 }
 
 /*
@@ -54,13 +54,39 @@ a:hover {
 **** Fomatação em geral ****
 */
 
-article {
-    background: white;
-    max-width: 800px;
-    min-width: 320px;
+main {
+    background: gray;
+    width: 920px;
+    height: 500px;
     margin: auto;
 }
+article, aside {
+    background-color: orange;
+}
+article {
+    width: 920px;
+    float: left;
+    margin: auto;
+    padding: 10px;
+  
+}
 
+.menu-lateral {
+    width: 100px;
+    float:right;
+    border: 1px solid red;
+}
+
+footer {
+    background: rgb(0, 30, 128);
+    text-align: center;
+    padding: 10px;
+    background: #CCC;
+}
+p {
+    text-indent: 20px;
+    width: 650px;
+}
 
 
 
