@@ -55,7 +55,7 @@ a:hover {
 */
 
 main {
-    background: gray;
+    background: green;
     width: 920px;
     height: 500px;
     margin: auto;
@@ -64,15 +64,15 @@ article, aside {
     background-color: orange;
 }
 article {
-    width: 920px;
+    width: 700px;
     float: left;
     margin: auto;
     padding: 10px;
   
 }
 
-.menu-lateral {
-    width: 100px;
+aside {
+    width: 150px;
     float:right;
     border: 1px solid red;
 }
