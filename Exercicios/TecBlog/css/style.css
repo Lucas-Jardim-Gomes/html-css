@@ -55,19 +55,18 @@ a:hover {
 */
 
 main {
-    background: green;
+    background: gray;
     width: 920px;
-    height: 500px;
     margin: auto;
 }
 article, aside {
     background-color: orange;
 }
 article {
+    
     width: 700px;
     float: left;
-    margin: auto;
-    padding: 10px;
+    padding: 20px;
   
 }
 
@@ -78,6 +77,7 @@ aside {
 }
 
 footer {
+    clear: both;
     background: rgb(0, 30, 128);
     text-align: center;
     padding: 10px;
