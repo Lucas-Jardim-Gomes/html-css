@@ -12,7 +12,7 @@
 body {
     font-size: 1em;
     font-family:Arial, Helvetica, sans-serif;
-    background: white;
+    
 }
 
 /*
@@ -41,33 +41,47 @@ h1 {
 a {
     text-decoration: none;
 }
+
 a:link, a:visited {
+    color: #f7b600;
+}
+article a:hover {
+    text-decoration: underline;
+}
+
+header a:link, a:visited {
     color: white;
     padding: 5px 10px;
 }
-a:hover {
+header a:hover {
     color: #f7b600;
     background: white;
     padding: 5px 10px;
+    border-radius: 3px;
 }
 /*
 **** Fomatação em geral ****
 */
 
 main {
-    background: gray;
+    background: rgb(221, 221, 221);
+}
+section {
+    
     width: 920px;
     margin: auto;
+    padding: 40px;
+    height: 100vh;
 }
 article, aside {
     background-color: orange;
 }
 article {
-    
-    width: 700px;
+    background: #ffffff;
+    width: 600px;
     float: left;
-    padding: 20px;
-  
+    padding: 15px;
+    margin-bottom: 10px;
 }
 
 aside {
@@ -82,10 +96,6 @@ footer {
     text-align: center;
     padding: 10px;
     background: #CCC;
-}
-p {
-    text-indent: 20px;
-    width: 650px;
 }
 
 
