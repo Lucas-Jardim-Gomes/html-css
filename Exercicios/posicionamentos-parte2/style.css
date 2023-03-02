@@ -1,0 +1,24 @@
+body {
+    background-color: #007fc7;
+}
+#container {
+    background: rgb(233, 233, 233);
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+h1 {
+    position: static;
+}
+
+p {
+    width: 350px;
+    position: static;
+}
+
+.absolute {
+    position: absolute;
+    border: 1px solid red;
+
+}
