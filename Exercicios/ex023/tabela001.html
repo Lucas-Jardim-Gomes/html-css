@@ -39,15 +39,19 @@
                     TABLE DATA = dado de tabela 
 
     -->
+
+    <h2>Produtos</h2>
     <table class="uno">
         <tr> <!-- Primeira linha-->
-            <td>Código</td>
-            <td>Produto</td>
-            <td>Preço</td>
+
+            <!-- tag th= table header ou cabeçalho da tabela-->
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preço</th>
         </tr>
         <tr>
             <td>01</td>
-            <td>Notebook</td>
+            <td> <a href="https://www.amazon.com.br/b?node=16364755011">Notebook</a></td>
             <td class="numero">R$ 2100,00</td>
         </tr>
         <tr>
@@ -59,6 +63,13 @@
             <td>03</td>
             <td>Gabinete</td>
             <td class="numero">R$ 160,00</td>
+        </tr>
+
+        <tr>
+            <td>Desconto</td>
+            <!-- a tag colspan permite agrupar mais de uma coluna
+             a tag rolsapn permite agrupar mais de uma linha-->
+            <td colspan="2">CUPOM1 - R$ 10</td>
         </tr>
     </table>
 

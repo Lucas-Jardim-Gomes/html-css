@@ -2,17 +2,12 @@ body {
     font-family:Arial, Helvetica, sans-serif
 }
 table {
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
     border-collapse: collapse;
-    background-color: rgb(190, 190, 190);
+    background-color: rgb(150, 150, 150);
 }
-.uno {
-    height: 500px;
-    width: 500px;
-    border-collapse: collapse;
-    background-color: rgb(120, 168, 114);
-}
+
 td {
     border: 1px solid black;
     padding: 5px;
@@ -21,4 +16,14 @@ td {
 }
 .numero {
     text-align: center;
+}
+
+th {
+
+    background-color: rgb(224, 224, 224);
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;/* Alinhamento horizontal */
+    vertical-align: middle; /* Alinhamento vertical*/
+
 }
