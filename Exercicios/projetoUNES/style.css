@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.capa {
+    height: auto;
+    width: 90%;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+p {
+    margin: 20px;
+    text-align: center;
+}
