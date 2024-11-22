@@ -6,26 +6,26 @@ body {
 
 .container {
     display: flex;
+    
 }
 
 .box {
+    
     float: left;
     width: 50%;
-    height: 200px;
+    height:100px;
+   
   }
 
 nav {
     padding: 0px;
     margin: 0px;
     width: 50%;
+    
 
 }
 
-div {
-    display: block;
-    width: 50%;
-    height: 10%;
-}
+
 
 header {
     background-color: white;
