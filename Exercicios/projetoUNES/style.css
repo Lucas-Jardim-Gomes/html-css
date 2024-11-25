@@ -4,19 +4,37 @@ body {
 }
 
 
-.container {
-    display: flex;
-    
+header {
+    width: 100%;
 }
 
-.box {
+.container {
+    display: flex;
+    margin: 0px; 
+    width: 100%;
+}
+
+div {
     
-    float: left;
+    text-align: right;
     width: 50%;
-    height:100px;
-    padding-bottom: 4px;
+    height:104px;
    
   }
+
+#logo {
+    display: flex;
+    margin: auto;
+    height: 60px;
+    padding-left: 10px;
+  }
+
+#links {
+    text-align: right;
+    margin: auto;
+    justify-content: center; 
+    align-items: center;  
+}
 
 nav {
     padding: 0px;
@@ -26,6 +44,13 @@ nav {
 
 }
 
+a:hover {
+    color: rgb(55, 10, 255);
+}
+
+a:visited {
+    color: rgb(154, 7, 252);
+}
 
 
 header {
@@ -56,4 +81,9 @@ main {
     text-align: left;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+footer {
+    text-align: center;
+    
 }
