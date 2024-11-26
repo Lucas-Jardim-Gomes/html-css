@@ -1,6 +1,9 @@
 body {
     margin: 0px;
-    padding: 0px;
+   
+}
+.cabecalho {
+    padding-right: 10px;
 }
 
 
@@ -16,7 +19,6 @@ header {
 
 div {
     
-    text-align: right;
     width: 50%;
     height:104px;
    
@@ -33,16 +35,9 @@ div {
     text-align: right;
     margin: auto;
     justify-content: center; 
-    align-items: center;  
-}
-
-nav {
-    padding: 0px;
-    margin: 0px;
-    width: 50%;
-    
 
 }
+
 
 a:hover {
     color: rgb(55, 10, 255);
