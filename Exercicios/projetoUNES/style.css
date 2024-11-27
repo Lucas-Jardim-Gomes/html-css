@@ -28,13 +28,12 @@ div {
     display: flex;
     margin: auto;
     height: 60px;
-    padding-left: 10px;
+    padding-left: 10%;
   }
 
 #links {
-    text-align: right;
     margin: auto;
-    justify-content: center; 
+    padding-right: 11%;
 
 }
 
@@ -79,6 +78,7 @@ main {
 }
 
 footer {
+    margin-top: 5%;
     text-align: center;
     
 }
