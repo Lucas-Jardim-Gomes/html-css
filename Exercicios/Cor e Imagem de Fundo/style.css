@@ -12,5 +12,5 @@ body {
 }*/
 
 .fundo{
-    background: rgb(122, 217, 255) url(imagens/yoshi.png) scroll;
+    background: rgb(122, 217, 255) url(imagens/yoshi.png) no-repeat scroll;
 }
