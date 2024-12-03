@@ -1,0 +1,16 @@
+body {
+   /* background-color: rgb(170, 81, 81);*/
+   background-image: url(imagens/yoshi.png);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center top;
+}
+
+/*.fundo{
+    background-color: gray;
+    color: azure;
+}*/
+
+.fundo{
+    background: rgb(122, 217, 255) url(imagens/yoshi.png) scroll;
+}
