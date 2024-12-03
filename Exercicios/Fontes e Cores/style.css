@@ -4,3 +4,7 @@
  background: black;
  font-family: 'Courier New', Courier, monospace;
 }
+
+body {
+    font-size: 30px;
+}
