@@ -1,4 +1,4 @@
-.formatacao {
+.formatacao2 {
  color: #90EE90;
  font-size: 30px;
  background: black;
@@ -6,5 +6,26 @@
 }
 
 body {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.negrito {
+    /* nornal, bold */
+    font-weight: 800;
+}
+
+.italico {
     font-size: 30px;
+    font-style: italic;
+}
+
+.formatacao {
+    /*text-decoration: underline;*/
+    /*text-decoration: overline;*/
+    text-decoration: line-through;
+}
+
+.texto {
+    font: bold 40px "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
 }
