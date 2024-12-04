@@ -6,6 +6,7 @@ body {
 img {
     height: 100%;
     width: 100%;
+    box-shadow: -2px 1px 5px rgba(0, 0, 0, 0.295);
 }
 
 nav {
@@ -17,8 +18,7 @@ nav a {
 
   main { background-color: beige; 
     border-radius: 5px; 
-    box-shadow: -2px -2px 13px black;
-    
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.295);  
     padding: 20px;
  }
 
