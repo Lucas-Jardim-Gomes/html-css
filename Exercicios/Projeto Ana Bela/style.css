@@ -22,6 +22,17 @@ nav a {
     padding: 20px;
  }
 
+ main img {
+    border: 15px solid rgb(136, 129, 97);
+    height: 90%;
+    width: 98%;
+ }
+
+ h2 {
+    color: rgb(158, 133, 63);
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
   p {
     padding-top: 35px;
   }
