@@ -1,5 +1,6 @@
 body {
     background-image: url(imagens/fundo.png);
+    font-size: 20px;
     
 }
 
@@ -14,6 +15,8 @@ nav {
 }
 nav a {
     margin-right: 50px; /* Adiciona espaçamento à direita de cada link */
+    font-weight: bold;
+    text-decoration: none;
   }
 
   main { background-color: beige; 
@@ -39,4 +42,5 @@ nav a {
   footer {
     margin-top: 20px;
     text-align: center;
+    font-weight: bold;
   }
