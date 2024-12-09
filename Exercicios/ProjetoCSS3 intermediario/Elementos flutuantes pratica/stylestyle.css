@@ -1,6 +1,14 @@
+body {
+    background: #ffffff;
+}
+
 #principal {
-    border:  3px solid red;
     width: 1250px;
+}
+
+#galeria {
+    background-color: aquamarine;
+    
 }
 
 .noticia {
@@ -13,4 +21,12 @@
 
 .clear {
     clear: both;
+}
+
+.imagem-galeria {
+    background: rgb(224, 224, 224);
+    width: 275px;
+    padding: 5px;
+    float: left;
+    margin: 10px;
 }
