@@ -17,5 +17,19 @@ body {
 }
 
 header {
-background: #f7b600;
+    background: #f7b600;
+    height: 100px;
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 45px;
+
+nav {
+    padding-top: 20px;
+}
+nav a:hover {
+    background: white;
+    padding: 5px;
 }
