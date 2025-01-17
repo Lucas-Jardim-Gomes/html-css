@@ -39,7 +39,13 @@ nav {
 }
 
 a {
-    color: white;
+    color: #f7b600;
+    text-decoration: none;
+    padding: 0px;
+}
+
+nav a {
+    color: #f7b600;
     padding-left: 10px;
     padding-right: 10px;
     text-decoration: none;
@@ -79,16 +85,24 @@ main {
 h3 {
     color: #f7b600;
     font-size: 25px;
+    padding-top: 20px;
 }
 
 div {
     background: white;
     padding: 25px;
     width: 640px;
+    margin: auto;
 }
 
 p {
     padding-top: 5px;
-    padding-bottom: 25px;
     font-size: 14px;
+}
+
+article {
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    
 }
