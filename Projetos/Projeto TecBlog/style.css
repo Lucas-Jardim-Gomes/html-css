@@ -50,6 +50,10 @@ nav a:link{
     color: rgb(255, 255, 255);
 }
 
+nav a:visited {
+    color: #ffffff;
+    background: #f7b600;
+}
 nav a:hover {
     background: white;
     padding: 10px 10px;
@@ -60,5 +64,31 @@ nav a:hover {
 nav a:active {
     background: rgb(255, 255, 255);
     padding: 10px 10px;
+    color: #ffffff;
+}
+
+/*
+**** parte do menu do site ****
+*/
+
+main {
+    padding: 20px;
+    background: rgb(207, 207, 207);
+}
+
+h3 {
     color: #f7b600;
+    font-size: 25px;
+}
+
+div {
+    background: white;
+    padding: 25px;
+    width: 640px;
+}
+
+p {
+    padding-top: 5px;
+    padding-bottom: 25px;
+    font-size: 14px;
 }
