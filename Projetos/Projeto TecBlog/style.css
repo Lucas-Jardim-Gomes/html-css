@@ -18,19 +18,47 @@ body {
 
 header {
     background: #f7b600;
-    height: 100px;
+    height: 150px;
     text-align: center;
     
 }
 
 h1{
     font-size: 45px;
+    padding-top: 20px;
+    color: rgb(88, 88, 88);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.branco {
+    color: white;
 }
 
 nav {
-    padding-top: 20px;
+    margin-top: 40px;
 }
+
+a {
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+
+nav a:link{
+    color: rgb(255, 255, 255);
+}
+
 nav a:hover {
     background: white;
-    padding: 5px;
+    padding: 10px 10px;
+    color: #f7b600;
+}
+
+
+nav a:active {
+    background: rgb(255, 255, 255);
+    padding: 10px 10px;
+    color: #f7b600;
 }
