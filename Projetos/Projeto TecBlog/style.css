@@ -78,7 +78,7 @@ nav a:active {
 */
 
 main {
-    padding: 20px;
+    padding: px;
     background: rgb(207, 207, 207);
     
 }
@@ -93,16 +93,25 @@ h3 {
 
 #postagens {
     background: white;
-    padding: 25px;
+    padding: 23px;
     width: 640px;
-    position: relative;
 
 }
 
+#container {
+    
+    padding: 25px;
+    width: 43em;
+    height: 107em;
+    margin: auto;
+
+}
+
+
 #area-lateral {
     position: relative;
-    bottom: 110em;
-    left: 800px;
+    bottom: 108em;
+    left: 720px;
 }
 
 .article {
@@ -110,9 +119,27 @@ h3 {
     width: 300px;
     background: #ffffff;
     margin-bottom: 40px;
+    padding: 10px;
     
    
 }
+
+
+#categorias {
+    width: 100px;
+    height: 121px;
+}
+
+#categorias a {
+    
+}
+
+article h3 {
+    background: rgb(175, 175, 175);
+    color: black;
+    padding: 5px;
+}
+
 
 
 p {
@@ -122,4 +149,5 @@ p {
 
 footer {
     background: gray;
+    width: 100%;
 }
