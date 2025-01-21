@@ -80,6 +80,7 @@ nav a:active {
 main {
     padding: 20px;
     background: rgb(207, 207, 207);
+    
 }
 
 h3 {
@@ -88,21 +89,37 @@ h3 {
     padding-top: 20px;
 }
 
-div {
+
+
+#postagens {
     background: white;
     padding: 25px;
     width: 640px;
-    margin: auto;
+    position: relative;
+
 }
+
+#area-lateral {
+    position: relative;
+    bottom: 110em;
+    left: 800px;
+}
+
+.article {
+    height: 150px;
+    width: 300px;
+    background: #ffffff;
+    margin-bottom: 40px;
+    
+   
+}
+
 
 p {
     padding-top: 5px;
     font-size: 14px;
 }
 
-article {
-    height: 150px;
-    width: 200px;
-    position: absolute;
-    
+footer {
+    background: gray;
 }
