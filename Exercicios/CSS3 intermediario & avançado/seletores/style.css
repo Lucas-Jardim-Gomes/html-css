@@ -1,0 +1,20 @@
+*{
+    border: 2px solid red;
+}
+
+h1 {
+    color: blue;
+}
+
+.verde {
+    color: green;
+}
+
+p.verde {
+    color: rgb(37, 221, 1);
+}
+
+#titulo {
+    border: 2px solid rgb(0, 0, 0);
+}
+
