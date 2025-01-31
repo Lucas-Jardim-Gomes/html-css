@@ -1,0 +1,42 @@
+/**************************************
+Barra de navegação vertical */
+
+/*
+#navegacaovertical {
+  
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    padding:5px 20px;
+    background: url(imagens/seta.png) no-repeat left center;
+}
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+ul a {
+    
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: black;
+    text-indent: 40px;
+    line-height: 40px;
+    background: url(imagens/menu.png) no-repeat left bottom;
+}
+
+a:hover {
+    background-position: right bottom;
+    color: white;
+}
