@@ -33,10 +33,13 @@ ul a {
     color: black;
     text-indent: 40px;
     line-height: 40px;
-    background: url(imagens/menu.png) no-repeat left bottom;
+    background: #f7b600 url(imagens/menu.png) no-repeat left bottom;
 }
 
-a:hover {
+
+
+#home .home a {
     background-position: right bottom;
+    background-color: #f99200;
     color: white;
 }
