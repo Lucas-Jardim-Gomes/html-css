@@ -1,0 +1,7 @@
+/*Barra de navegação horizontal*/
+
+ul #navegação {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
