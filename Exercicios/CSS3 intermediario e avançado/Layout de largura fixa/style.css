@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-    width: 750px;
+    width: 720px;
     margin: 0 auto;
     border: 1px solid #000;
     background: #fff;
@@ -19,33 +19,52 @@ body {
 }
 
 #conteudo {
-     border: 1px solid red;
+     
     width: 520px;
+    float: right ;
+}
+
+#conteudoprincipal {
+  
+    width: 320px;
+    float: left;
+}
+#conteudosecundario {
+    width: 180px;
     float: right;
+    background: #d1d1d1;
+
+}
+
+#conteudosecundario h1,
+#conteudosecundario h2,
+#conteudosecundario h3,
+#conteudosecundario p{
+    padding-left: 20px;
+     padding-right: 20px;
 }
 
 #navegacao {
-    border: 1px solid red;
+   
     float: left;
     width: 180px;
     padding-top: 20px;
     padding-bottom: 20px;
     background: #d1d1d1;
-}#rodape {
+}
+
+
+#navegacao ul {
+    list-style: none;
+}
+
+#navegacao li  a {
+    text-decoration: none;
+}
+
+#rodape {
     clear: both;
     background: #c4c4c4;
     padding: 5px;
 }
 
-ul {
-    background: rgb(28, 112, 148);
-    text-decoration:none;
-    padding: 5px;
-    list-style: none;
-    margin: 0px;
-}
-
-ul li {
-    padding: 5px;
-    border-bottom: 1px solid #000;
-}
