@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-    width: 720px;
+    width: 760px;
     margin: 0 auto;
     border: 1px solid #000;
     background: #fff;
@@ -20,17 +20,17 @@ body {
 
 #conteudo {
      
-    width: 520px;
+    width: 540px;
     float: right ;
 }
 
 #conteudoprincipal {
   
-    width: 320px;
+    width: 340px;
     float: left;
 }
 #conteudosecundario {
-    width: 180px;
+    width: 200px;
     float: right;
     background: #d1d1d1;
 
@@ -47,19 +47,38 @@ body {
 #navegacao {
    
     float: left;
-    width: 180px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 200px;
     background: #d1d1d1;
 }
 
 
 #navegacao ul {
+    margin: 0px;
+    padding: 0px;
     list-style: none;
+    
 }
 
 #navegacao li  a {
+   
+    
+}
+
+#navegacao ul a{
+    width: 180px;
+    height: 20px;
+    padding: 10px;
+    display: block;
+    border: 1px solid rgb(0, 0, 0);
+    list-style: none;
+    background: url(imagens/menu.png) no-repeat left;
     text-decoration: none;
+    text-indent: 30px;
+    
+}
+
+#navegacao ul a:hover {
+    background: url(imagens/menu.png) no-repeat right;
 }
 
 #rodape {
