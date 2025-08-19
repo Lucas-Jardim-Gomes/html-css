@@ -20,17 +20,17 @@ body {
 
 #conteudo {
      
-    width: 68%;
+    width: 72%;
     float: right ;
 }
 
 #conteudoprincipal {
   
-    width: 320px;
+    width: 61%;
     float: left;
 }
 #conteudosecundario {
-    width: 200px;
+    width: 38%;
     float: right;
     background: #d1d1d1;
 
@@ -47,7 +47,7 @@ body {
 #navegacao {
    
     float: left;
-    width: 17%;
+    width: 26%;
     background: #d1d1d1;
 }
 
