@@ -11,12 +11,15 @@ body {
     border: 1px solid #000;
     background: #fff;
     min-width: 720px;
+    max-width: 1200px;
+   
 }
 #marca {
-    height: 100%;
-    background: #9e9e9e;
+    width: 100%;
+    height: 300px;
+    background: #9e9e9e url(arquivos-necessarios-imagens-liquidas/cabecalho2.jpg) no-repeat center;
     text-align: center;
-    line-height: 100px;
+    line-height: 300px;
 }
 
 #conteudo {
